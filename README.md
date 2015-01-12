@@ -18,7 +18,7 @@ Outputs a file containing the following
     <b>Optional</b>: <i>[Optional Attendees]</i><br><br>
       <b><i>Present:</b></i>: <i>[Your actual list has to be filled in]</i><br>
     <br>
-    <h4>Resutlts</h4>
+    <h4>Results</h4>
     ...
   </p>
 
