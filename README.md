@@ -15,11 +15,11 @@ Outputs a file containing the following
     <b>Start</b>: <i>[Start In StartTimeZone]</i><br>
     <b>Organizer</b>: <i>[Organizer]</i><br>
     <b>Required</b>: <i>[Required Attendees]</i><br>
-    <b>Optional</b>: <i>[Optional Attendees]</i><br>
-      <b><i>Present:</b></i>: <i>[Your actual list]</i><br>
+    <b>Optional</b>: <i>[Optional Attendees]</i><br><br>
+      <b><i>Present:</b></i>: <i>[Your actual list has to be filled in]</i><br>
     <br>
     <h4>Resutlts</h4>
-
+    ...
   </p>
 
 </div>
