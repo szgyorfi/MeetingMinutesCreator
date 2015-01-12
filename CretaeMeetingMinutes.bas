@@ -85,14 +85,15 @@ Sub createMinutes()
     wApp.Visible = True
     wApp.Activate
     
-    wApp.FileDialog(msoFileDialogSaveAs).InitialFileName _
+    ' UNCOMENT IF YOU WANT THE SAVEAS Dialog TO POP UP as the file is created
+    'wApp.FileDialog(msoFileDialogSaveAs).InitialFileName _
     = "C:\Users\" & Environ("username") & "\Documents\MeetingMinutes"
-    wApp.FileDialog(msoFileDialogSaveAs).Show
+    'wApp.FileDialog(msoFileDialogSaveAs).Show
     
     
     
     Set wApp = Nothing
-    Set wDow = Nothing
+    Set wDoc = Nothing
     Set olkMsg = Nothing
     Set objSelection = Nothing
    
