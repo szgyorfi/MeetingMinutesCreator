@@ -1,4 +1,4 @@
-# MeMiCR
+# Meeting Minutes Creator
 MS Outlook script to create meeting minutes based on Appointment data.
 
 1. The code assumes that you have Miscrosoft Office installed (or at least Outlook and Word). <br>
