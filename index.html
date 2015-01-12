@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Meetingminutescreator by szgyorfi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Meetingminutescreator</h1>
+        <p>MS Outlook script to create meeting minutes based on Appointment data</p>
+
+        <p class="view"><a href="https://github.com/szgyorfi/MeetingMinutesCreator">View the Project on GitHub <small>szgyorfi/MeetingMinutesCreator</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/szgyorfi/MeetingMinutesCreator/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/szgyorfi/MeetingMinutesCreator/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/szgyorfi/MeetingMinutesCreator">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="meeting-minutes-creator" class="anchor" href="#meeting-minutes-creator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Meeting Minutes Creator</h1>
+
+<p>MS Outlook script to create meeting minutes .docx file based on Appointment data. Basically it will create a word document where you can write down results / assumptions / tasks issued on the meeting and distribute this .docx file to the meeting attendees.</p>
+
+<h3>
+<a id="what-it-does" class="anchor" href="#what-it-does" aria-hidden="true"><span class="octicon octicon-link"></span></a>What it does</h3>
+
+<p>Outputs a file containing the following</p>
+
+<hr>
+
+<div>
+
+  <h4>
+<a id="meeting-minutes" class="anchor" href="#meeting-minutes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Meeting Minutes</h4>
+<br>
+
+  <p>
+
+    <b>Subject</b>: <i>[Your subject field content]</i><br>
+    <b>Importance</b>: <i>[Represented by a number from 0 - high to 2 low]</i><br>
+    <b>Location</b>: <i>[Location]</i><br>
+    <b>Start</b>: <i>[Start In StartTimeZone]</i><br>
+    <b>Organizer</b>: <i>[Organizer]</i><br>
+    <b>Required</b>: <i>[Required Attendees]</i><br>
+    <b>Optional</b>: <i>[Optional Attendees]</i><br><br>
+      <b><i>Present:</i></b>: <i>[Your actual list has to be filled in]</i><br>
+    <br>
+    </p>
+<h4>
+<a id="resutlts" class="anchor" href="#resutlts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resutlts</h4>
+    ...
+  
+
+</div>
+
+<hr>
+
+<h3>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
+
+<ol>
+<li>The code assumes that you have Miscrosoft Office installed (or at least Outlook and Word). <br>
+Tests performed only in MS Office 2010.</li>
+<li>You'll have to add the <strong>Microsoft Word 14.0 Object Library</strong> reference to your Outlook Project. <br>
+You can do this by going <strong>Tools</strong> &gt; <strong>References</strong> and search the list for this object library. Simply tick the mark and click <strong>OK</strong>.</li>
+<li>The file <strong>CreateMeetingMinutes.bas</strong> must be added to your Outlooks VBA project. <br>
+You can find instruction on how to import the file into outlook <a href="http://www.outlookcode.com/article.aspx?id=28">here</a> at the file Import/Export section.</li>
+<li>After import maybe you want to add a Ribbon Button to the Appointment / Meeting menu. <br>
+Instructions can be found <a href="http://www.howto-outlook.com/howto/macrobutton.htm#ribbon">here</a>
+</li>
+<li>If you setted all this up, open an Appointment / Meeting and Run the macro <br>
+(if you did not have created a Ribbon Button you can simply access available macros by pressing the <strong>Alt+F8</strong> key combination - choose <em>createMinutes</em> macro and press <strong>Run</strong>.)</li>
+</ol>
+
+<p>Good luck!</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/szgyorfi">szgyorfi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
