@@ -87,7 +87,7 @@ Sub createMinutes()
     
     ' UNCOMENT IF YOU WANT THE SAVEAS Dialog TO POP UP as the file is created
     'wApp.FileDialog(msoFileDialogSaveAs).InitialFileName _
-    = "C:\Users\" & Environ("username") & "\Documents\MeetingMinutes"
+    '= "C:\Users\" & Environ("username") & "\Documents\MeetingMinutes"
     'wApp.FileDialog(msoFileDialogSaveAs).Show
     
     
