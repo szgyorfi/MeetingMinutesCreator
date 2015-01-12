@@ -1,4 +1,4 @@
-# Meeting Minutes Creator
+#[Meeting Minutes Creator](http://szgyorfi.github.io/MeetingMinutesCreator)
 MS Outlook script to create meeting minutes .docx file based on Appointment data. Basically it will create a word document where you can write down results / assumptions / tasks issued on the meeting and distribute this .docx file to the meeting attendees.
 <h3>What it does</h3>
 Outputs a file containing the following
